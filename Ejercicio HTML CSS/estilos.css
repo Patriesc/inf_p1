@@ -1,0 +1,141 @@
+#hgroup>h1{
+
+    margin: 0;
+}
+#hgroup a{
+    color: grey;
+    text-decoration: none;
+}
+#hgroup>h2{
+    margin: 0;
+    color: grey;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+header nav  ul a{
+    text-transform: uppercase;
+}
+nav ul a{
+    text-decoration: none;
+    color: grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+
+}
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+    color: grey;
+    max-width: 960px;
+}
+
+#shout >h1{
+    padding: 20px;
+    border-top: #c8c8c8 solid 2px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+#shout{
+    border-bottom: #c8c8c8 solid 2px;
+    width: 960px;
+
+}
+#shout > p{
+    margin-top: 0;
+    text-align: center;
+    line-height: 24px;
+}
+
+#content>section>article>h2{
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+#content article:first-child{
+    max-width: 650px;
+
+}
+
+#content article:first-child h2{
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.more a{
+    align-content: center;
+    padding-left: 550px;
+}
+
+#services.last.clear{
+    max-width: 250px;
+}
+
+
+#services.last.clear a{
+    padding-left: 140px;
+}
+
+#right_column{
+    position: absolute;
+    top: 670px;
+    left: 900px;
+    width: 260px;
+
+
+}
+#right_column>h2{
+    text-transform: uppercase;
+    border-bottom: #c8c8c8 solid 2px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-size: 16px;
+}
+#right_column ul{
+    list-style: none;
+    padding-left: 5px;
+    font-weight: bold;
+
+}
+#right_column li{
+    border-bottom: #c8c8c8 solid 1px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#content a{
+    text-decoration: none;
+    color: #f99027;
+
+}
+address a{
+    text-decoration: none;
+    color: #f99027;
+
+}
+
+#footer{
+    margin-top: 20px;
+    border-top: #c8c8c8 solid 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+article img{
+    float: left;
+    padding: 4px;
+    border: #c8c8c8 solid 1px;
+    margin: 5px;
+}
